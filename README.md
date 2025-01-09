@@ -1,10 +1,8 @@
 # commit-signed
 
-a githut workflow action designed to sign your commits with the verified github-actions[bot](#)
+a githut workflow action designed to commit signed with the verified github-actions[bot](#)
 
 ## Example Usage
-
-an example using composite actions - [more](https://docs.github.com/en/actions/sharing-automations/creating-actions/creating-a-composite-action)
 
 ### commit-signed.yml
 ```yml

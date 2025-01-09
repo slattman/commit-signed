@@ -1,0 +1,10 @@
+name: Commit Signed
+description: a githut workflow action designed to commit signed with the verified github-actions[bot]
+branding:
+  icon: archive
+  color: gray-dark
+runs:
+  using: composite
+  steps:
+    - run: .github/api/createCommitOnBranch.sh
+      shell: bash
