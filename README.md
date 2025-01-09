@@ -1,6 +1,6 @@
 # commit-signed
 
-a githut workflow action designed to commit signed with the verified github-actions[bot](#)
+a githut workflow action designed to commit signed with the verified github-actions[[bot](#)]
 
 ## Example Usage
 
