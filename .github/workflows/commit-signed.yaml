@@ -1,0 +1,12 @@
+name: commit-signed
+on:
+  workflow_dispatch:
+  workflow_call:
+jobs:
+  update:
+    runs-on: macOS-latest
+    permissions: write-all
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - run: ./.github/api/createCommitOnBranch.sh
