@@ -10,6 +10,7 @@ jobs:
       GH_TOKEN: ${{ github.token }}
     steps:
         - uses: actions/checkout@v4.2.2
-        - run: gh release delete latest --cleanup-tag -y
-        - run: gh release create latest --generate-notes --latest
+        - run: git tag -f latest
+        - run: git push
+        - run: git push origin -f latest
         - run: gh run delete $(gh run list --json databaseId -q "map(.databaseId)[1]")
