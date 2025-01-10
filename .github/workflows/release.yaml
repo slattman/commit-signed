@@ -4,7 +4,7 @@ on:
   push:
 jobs:
   update:
-    runs-on: macOS-latest
+    runs-on: ubuntu-latest
     permissions: write-all
     env:
       GH_TOKEN: ${{ github.token }}
