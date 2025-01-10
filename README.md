@@ -37,5 +37,5 @@ jobs:
     permissions: write-all
 ```
 
-<sub>inspired by [My Favorite Readme Generator](https://github.com/slattman/my-favorite-readme-generator/actions)</sub>
+<sub>inspired by [My Favorite Readme Generator](https://github.com/slattman/my-favorite-readme-generator)</sub>
 
