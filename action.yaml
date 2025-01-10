@@ -1,5 +1,5 @@
 name: Commit Signed
-description: a githut workflow action designed to commit signed with the verified github-actions[bot]
+description: a githut workflow action designed to commit signed
 branding:
   icon: archive
   color: gray-dark
