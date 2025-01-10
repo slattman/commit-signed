@@ -13,7 +13,7 @@ GITHUB_FILE_CHANGES=$( \
   sed -e s/#/\\\"/g
 )
 echo $GITHUB_FILE_CHANGES
-cat <<gql > .github/api/createCommintOnBranch.gql
+cat <<gql > .github/api/createCommitOnBranch.gql
 {
   "query": "mutation(\$input:CreateCommitOnBranchInput!){createCommitOnBranch(input:\$input){commit{url}}}",
   "variables": {
@@ -33,4 +33,4 @@ cat <<gql > .github/api/createCommintOnBranch.gql
   }
 }
 gql
-curl -H "Authorization: bearer $GH_TOKEN" -d @.github/api/createCommintOnBranch.gql https://api.github.com/graphql
+curl -H "Authorization: bearer $GH_TOKEN" -d @.github/api/createCommitOnBranch.gql https://api.github.com/graphql
