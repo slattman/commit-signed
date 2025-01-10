@@ -4,8 +4,8 @@ a githut workflow action designed to commit signed with the verified github-acti
 
 ## Example Usage
 
-### commit-signed.yml
-```yml
+### commit-signed.yaml
+```yaml
 name: commit-signed
 on:
   workflow_dispatch:
