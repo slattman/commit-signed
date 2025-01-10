@@ -1,5 +1,5 @@
 #!/bin/bash
-GITHUB_HEAD_ID=$(git rev-parse HEAD~2)
+GITHUB_HEAD_ID=$(git rev-parse HEAD)
 GITHUB_FILE_CHANGES=$( \
   rev <<< $( \
     git diff --diff-filter=MT --name-only $GITHUB_REF_NAME | \
