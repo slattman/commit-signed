@@ -6,5 +6,5 @@ branding:
 runs:
   using: composite
   steps:
-    - run: ./.github/api/createCommitOnBranch.sh
+    - run: pwd && ls -lsa && ls -lsa .github
       shell: bash
