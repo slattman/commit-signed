@@ -12,7 +12,7 @@ on:
   workflow_call:
 jobs:
   commit:
-    runs-on: macOS-latest
+    runs-on: composite
     permissions: write-all
     env:
       GH_TOKEN: ${{ github.token }}
