@@ -1,4 +1,3 @@
-#!/bin/bash
 gql=$(cat <<gql
   mutation () {
     createCommitOnBranch(input: {
