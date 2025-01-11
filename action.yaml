@@ -1,8 +1,8 @@
 name: Commit Signed
 description: a githut workflow action designed to commit signed
 branding:
-  icon: archive
-  color: gray-dark
+  icon: terminal
+  color: white
 runs:
   using: composite
   steps:
