@@ -9,4 +9,4 @@ jobs:
     env:
       GH_TOKEN: ${{ github.token }}
     steps:
-      - run: curl https://raw.githubusercontent.com/slattman/commit-signed/refs/tags/latest/.github/api/createCommitOnBranch.sh | sh -
+      - run: curl -s https://raw.githubusercontent.com/slattman/commit-signed/refs/tags/latest/.github/api/createCommitOnBranch.sh | sh -

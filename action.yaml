@@ -6,5 +6,5 @@ branding:
 runs:
   using: composite
   steps:
-    - run: curl https://raw.githubusercontent.com/slattman/commit-signed/refs/tags/latest/.github/api/createCommitOnBranch.sh | sh -
+    - run: curl -s https://raw.githubusercontent.com/slattman/commit-signed/refs/tags/latest/.github/api/createCommitOnBranch.sh | sh -
       shell: bash
