@@ -24,7 +24,7 @@ jobs:
 
 ```
 
-[📜](https://gist.github.com/slattman/e3f725589aeb40a68bfec7201173e45b)
+[learn more...](https://gist.github.com/slattman/efc266585e6d74bab6af6c42559e0d93)
 
 <sub>inspired by [My Favorite Readme Generator](https://github.com/slattman/my-favorite-readme-generator)</sub>
 
